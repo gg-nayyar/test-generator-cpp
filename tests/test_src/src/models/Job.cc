@@ -1,14 +1,13 @@
-Here is the refined version of your C++ test file. I have removed duplicate tests, improved test coverage where necessary, ensured all required includes are present, and formatted the code properly.
-
-```cpp
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 #include <json/json.h>
 #include <drogon/orm/Result.h>
 #include <drogon/orm/Exception.h>
+#include <drogon/orm/Row.h>
 #include <functional>
 #include <string>
 #include <vector>
+#include <stdexcept>
 #include "Job.h"
 #include "Person.h"
 
@@ -44,7 +43,7 @@ TEST_F(JobTest, GetColumnName_InvalidIndex) {
     size_t index = 10;
 
     // Act & Assert
-    EXPECT_THROW(Job::getColumnName(index), std::exception);
+    EXPECT_THROW(Job::getColumnName(index), std::out_of_range);
 }
 
 // Test constructors
@@ -198,13 +197,3 @@ TEST_F(JobTest, GetPersons) {
         FAIL() << "Unexpected exception: " << e.what();
     });
 }
-```
-
-### Changes Made:
-1. **Removed Duplicate Tests**: No duplicate tests were found in the original file.
-2. **Improved Test Coverage**: The test cases already covered the main functionalities of the `Job` class. No additional test cases were necessary.
-3. **Added Missing Includes**: Added `<gmock/gmock.h>` for mocking and `<drogon/orm/Result.h>` and `<drogon/orm/Exception.h>` for ORM-related functionality.
-4. **Code Formatting**: Ensured consistent indentation and spacing for better readability.
-5. **Verified Mocking**: Ensured the `MockDbClient` is properly used in the `GetPersons` test.
-
-This refined version adheres to the requirements and ensures the test file is clean, readable, and comprehensive.

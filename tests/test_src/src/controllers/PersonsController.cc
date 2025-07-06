@@ -1,12 +1,10 @@
-Here is the refined C++ test file based on your requirements. The changes include removing duplicate tests, improving test coverage, ensuring all necessary includes are present, and formatting the code properly.
-
-```cpp
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 #include <drogon/HttpRequest.h>
 #include <drogon/HttpResponse.h>
-#include <drogon/orm/Mapper.h>
-#include <drogon/orm/Criteria.h>
+#include <drogon/orm/DbClient.h>
+#include <drogon/orm/Result.h>
+#include <drogon/HttpTypes.h>
 #include <json/json.h>
 #include "PersonsController.h"
 
@@ -48,8 +46,8 @@ TEST_F(PersonsControllerTest, GetPersons_Success) {
     // Arrange
     EXPECT_CALL(*mockRequest, getOptionalParameter("sort_field")).WillOnce(::testing::Return("id"));
     EXPECT_CALL(*mockRequest, getOptionalParameter("sort_order")).WillOnce(::testing::Return("asc"));
-    EXPECT_CALL(*mockRequest, getOptionalParameter("limit")).WillOnce(::testing::Return(10));
-    EXPECT_CALL(*mockRequest, getOptionalParameter("offset")).WillOnce(::testing::Return(0));
+    EXPECT_CALL(*mockRequest, getOptionalParameter("limit")).WillOnce(::testing::Return("10"));
+    EXPECT_CALL(*mockRequest, getOptionalParameter("offset")).WillOnce(::testing::Return("0"));
 
     drogon::orm::Result mockResult;
     EXPECT_CALL(*mockDbClient, execSqlAsync(::testing::_, ::testing::_, ::testing::_, ::testing::_))
@@ -150,12 +148,3 @@ TEST_F(PersonsControllerTest, GetDirectReports_NotFound) {
         EXPECT_EQ(resp->getStatusCode(), drogon::HttpStatusCode::k404NotFound);
     }, personId);
 }
-```
-
-### Changes Made:
-1. **Removed Duplicate Tests**: No duplicate tests were found in the original file.
-2. **Improved Test Coverage**: Ensured that all test cases cover different scenarios (e.g., success and failure cases for each controller method).
-3. **Added Missing Includes**: Verified that all necessary includes are present.
-4. **Formatted Code**: Ensured proper indentation and consistent formatting throughout the file.
-
-This refined file adheres to the requirements and is ready for use.

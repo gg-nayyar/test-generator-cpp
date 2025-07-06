@@ -1,0 +1,14 @@
+style: gtest
+purpose: Fix broken C++ test files based on compiler build errors.
+guidelines:
+  - Add missing includes, headers, or namespaces.
+  - Resolve undeclared identifiers and type errors.
+  - Add mock classes if needed.
+  - Do not remove test logic unless it's invalid.
+  - Do not change production code.
+  - Format properly.
+  - Do NOT wrap code in markdown or ```cpp blocks.
+  - Return raw, valid C++ only.
+output:
+  format: cpp
+  include_headers: true

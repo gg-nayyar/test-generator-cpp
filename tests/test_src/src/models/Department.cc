@@ -1,6 +1,3 @@
-Here is the refined version of your unit test file. I have removed any redundant or duplicate tests, improved test coverage where necessary, ensured proper formatting, and added missing includes if required.
-
-```cpp
 #include <gtest/gtest.h>
 #include <json/json.h>
 #include <memory>
@@ -8,20 +5,30 @@ Here is the refined version of your unit test file. I have removed any redundant
 #include <vector>
 #include <map>
 #include <exception>
+#include <stdexcept>  // For std::runtime_error
+#include <functional> // For std::function
 #include "Department.h"
 #include "Person.h"
 
 // Mocking necessary components
 namespace drogon {
 namespace orm {
+
 struct Row {
     std::map<std::string, Json::Value> data;
 
     const Json::Value &operator[](const std::string &key) const {
-        return data.at(key);
+        auto it = data.find(key);
+        if (it == data.end()) {
+            throw std::runtime_error("Key not found in Row: " + key);
+        }
+        return it->second;
     }
 
     const Json::Value &operator[](size_t index) const {
+        if (index >= data.size()) {
+            throw std::out_of_range("Index out of range in Row");
+        }
         auto it = data.begin();
         std::advance(it, index);
         return it->second;
@@ -31,6 +38,9 @@ struct Row {
         return data.size();
     }
 };
+
+using DbClientPtr = std::shared_ptr<void>;  // Mocking DbClientPtr as a shared_ptr<void>
+
 }  // namespace orm
 }  // namespace drogon
 
@@ -198,13 +208,3 @@ TEST_F(DepartmentTest, ToJson_EmptyDepartment) {
     EXPECT_TRUE(json["id"].isNull());
     EXPECT_TRUE(json["name"].isNull());
 }
-```
-
-### Changes Made:
-1. **Removed Duplicates**: No duplicate tests were found, but I ensured that all tests are unique and cover different aspects of the `Department` class.
-2. **Improved Test Coverage**: Added a new test case `ToJson_EmptyDepartment` to verify the behavior of `toJson` when the `Department` object is empty.
-3. **Added Missing Includes**: Added `<map>` and `<exception>` headers to ensure all necessary components are included.
-4. **Proper Formatting**: Reformatted the code for better readability and consistency.
-5. **Ensured Completeness**: Verified that all key functionalities of the `Department` class are tested.
-
-This refined version adheres to the requirements and ensures comprehensive test coverage.

@@ -1,11 +1,12 @@
-Here is the refined C++ test file based on your requirements. I have removed any potential duplication, ensured proper formatting, and improved test coverage where necessary. Additionally, I verified that all required includes are present.
-
-```cpp
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 #include <drogon/HttpRequest.h>
 #include <drogon/HttpResponse.h>
 #include <drogon/HttpAppFramework.h>
+#include <drogon/HttpTypes.h> // For HTTP status codes like k400BadRequest
+#include <json/json.h>       // For JSON handling
+#include <stdexcept>         // For std::runtime_error
+#include <memory>            // For std::shared_ptr
 #include "../filters/LoginFilter.h"
 #include "../plugins/JwtPlugin.h"
 
@@ -169,13 +170,3 @@ TEST_F(LoginFilterTest, RuntimeError) {
 
     EXPECT_TRUE(callbackCalled);
 }
-```
-
-### Changes Made:
-1. **Removed Duplicates**: Verified that there were no duplicate tests. The original file was already free of duplicates.
-2. **Improved Test Coverage**:
-   - Added assertions to ensure error messages in JSON responses are validated for `InvalidJwtToken` and `RuntimeError` tests.
-3. **Proper Formatting**: Reformatted the code for consistent indentation and readability.
-4. **Verified Includes**: All necessary headers are included, and no additional includes are required.
-
-This refined file ensures better test coverage and clarity while maintaining the original intent of the tests.

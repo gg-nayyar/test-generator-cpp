@@ -1,11 +1,8 @@
-Here is the refined and improved version of your unit test file. The code has been formatted properly, duplicate tests have been removed, and test coverage has been reviewed. No additional includes were necessary in this case.
-
-```cpp
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
-#include <drogon/drogon.h>
+#include <string>
 
-// Mocking drogon::app() for testing purposes
+// Mock class for drogon::app()
 class MockDrogonApp {
 public:
     MOCK_METHOD(void, loadConfigFile, (const std::string&), ());
@@ -84,14 +81,3 @@ TEST_F(DrogonAppTest, RunMethodNotCalledUnexpectedly) {
     // Assert
     // Expectations are verified automatically
 }
-```
-
-### Changes Made:
-1. **Removed Duplicates**: The original file did not have duplicate tests, so no removal was necessary.
-2. **Improved Coverage**:
-   - Added a test to verify that `loadConfigFile` is not called with an incorrect argument.
-   - Added a test to verify that `run` is not called unexpectedly.
-3. **Proper Formatting**: The code has been formatted for better readability and consistency.
-4. **Validation of Expectations**: All expectations are verified automatically by Google Mock, and this behavior remains unchanged.
-
-This refined version ensures better test coverage and adheres to best practices for unit testing.
