@@ -1,0 +1,7 @@
+task: "Refine and improve the given unit tests."
+requirements:
+  - Remove duplicate tests
+  - Improve test coverage
+  - Add missing includes if any
+  - Format the code properly
+output_format: "Refined C++ test file with no duplication"

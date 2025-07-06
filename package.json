@@ -1,0 +1,24 @@
+{
+  "name": "cpp-tests",
+  "version": "1.0.0",
+  "description": "This is a cpp test generator using llm made to test and tell the coverage of the project",
+  "license": "ISC",
+  "author": "Krish Nayyar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@azure-rest/ai-inference": "^1.0.0-beta.6",
+    "@azure/core-auth": "^1.9.0",
+    "dotenv": "^17.0.1",
+    "openai": "^5.8.2",
+    "yaml": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

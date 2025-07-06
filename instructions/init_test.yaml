@@ -1,0 +1,19 @@
+style: gtest
+purpose: Generate meaningful unit tests for the given C++ code using Google Test.
+guidelines:
+  - Create a test file using Google Test
+  - Only test public interfaces or entry points.
+  - Avoid redundant or duplicate tests.
+  - Assume all necessary includes and dependencies exist.
+  - Do not reject code because of missing include paths.
+  - Do not fail on unknown includes. Skip or mock them.
+  - Do not reject files with third-party dependencies.
+  - Focus only on function signatures and logic, not buildability.
+  - You can ignore the headers if necessary.
+  - Focus on logic inside the functions and methods.
+  - Include appropriate headers and mocks.
+  - Use Arrange-Act-Assert (AAA) pattern in each test case.
+  - Cover all functions and edge cases.
+output:
+  format: cpp
+  include_headers: true
