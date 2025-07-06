@@ -1,149 +1,145 @@
-import fs from "fs";
-import path from "path";
-import { execSync } from "child_process";
-import dotenv from "dotenv";
-import { AzureKeyCredential } from "@azure/core-auth";
-import ModelClient, { isUnexpected } from "@azure-rest/ai-inference";
+import fs from 'fs';
+import path from 'path';
+import { execSync, spawnSync } from 'child_process';
 
-dotenv.config();
+// Constants
+const TEST_DIR = path.resolve('tests');
+const TEST_SRC_DIR = path.resolve(TEST_DIR, 'test_src');
+const SRC_DIR = path.resolve('src');
+const BUILD_DIR = path.resolve(TEST_DIR, 'build');
+const EXECUTABLE_NAME = 'test_executable';
+const MAX_ATTEMPTS = 3;
 
-const endpoint = "https://models.github.ai/inference";
-const token = process.env.GITHUB_TOKEN_BuildAndFix;
-const model = "openai/gpt-4o";
-const TEST_DIR = path.join("tests", "test_src", "src");
-const YAML_FIX_PATH = path.join("instructions", "fix_build.yaml");
+// Convert Windows paths to POSIX (important for CMake)
+function posixify(p: string): string {
+  return p.replace(/\\/g, '/');
+}
 
-const client = ModelClient(endpoint, new AzureKeyCredential(token!));
+// Write CMakeLists.txt in /tests
+function writeCMakeLists() {
+  const srcPath = posixify(SRC_DIR);
+  const srcBuildPath = posixify(path.join(BUILD_DIR, 'src_build'));
+  
+  console.log("🔧 Writing add_subdirectory with paths:");
+  console.log("  srcPath:", srcPath);
+  console.log("  srcBuildPath:", srcBuildPath);
+  const content = `
+cmake_minimum_required(VERSION 3.10)
+project(${EXECUTABLE_NAME})
 
-async function fixTestFile(filePath: string, buildLog: string): Promise<void> {
-  const fileContent = fs.readFileSync(filePath, "utf-8");
-  const fixInstructions = fs.readFileSync(YAML_FIX_PATH, "utf-8");
+enable_testing()
 
-  const prompt = `# YAML INSTRUCTIONS\n${fixInstructions}\n\n# BUILD LOGS\n${buildLog}\n\n# BROKEN TEST FILE\n${fileContent}`;
+# Add src folder (dev code, readonly)
+add_subdirectory(${srcPath} ${srcBuildPath})
 
-  const response = await client.path("/chat/completions").post({
-    body: {
-      messages: [
-        {
-          role: "system",
-          content:
-            "You are a C++ compiler assistant who fixes broken test files using Google Test.",
-        },
-        { role: "user", content: prompt },
-      ],
-      temperature: 0.3,
-      top_p: 1,
-      model: model,
-    },
+
+# GoogleTest
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  URL https://github.com/google/googletest/archive/refs/heads/main.zip
+)
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(googletest)
+
+find_package(GTest REQUIRED)
+include_directories(\${GTEST_INCLUDE_DIRS})
+
+file(GLOB_RECURSE TEST_SOURCES "${posixify(TEST_SRC_DIR)}/*.cc")
+add_executable(${EXECUTABLE_NAME} \${TEST_SOURCES})
+target_link_libraries(${EXECUTABLE_NAME} GTest::gtest_main)
+
+include(GoogleTest)
+gtest_discover_tests(${EXECUTABLE_NAME})
+`;
+  fs.writeFileSync(path.join(TEST_DIR, 'CMakeLists.txt'), content);
+  console.log('📄 CMakeLists.txt written to /tests');
+}
+
+// Run CMake & Build
+function runBuild(): boolean {
+  console.log('🚀 Attempting build...');
+  fs.mkdirSync(BUILD_DIR, { recursive: true });
+
+  const cmakeCmd = spawnSync('cmake', ['..'], {
+    cwd: BUILD_DIR,
+    encoding: 'utf-8',
+    shell: true,
   });
 
-  if (isUnexpected(response)) throw response.body.error;
+  if (cmakeCmd.error) {
+    console.error('❌ CMake configuration failed:', cmakeCmd.error.message);
+    return false;
+  }
 
-  const rawFix = response.body.choices?.[0]?.message?.content ?? "";
+  const buildCmd = spawnSync('cmake', ['--build', '.'], {
+    cwd: BUILD_DIR,
+    encoding: 'utf-8',
+    shell: true,
+  });
 
-const fixed = rawFix
-  .replace(/```[a-zA-Z]*\n?/g, "")
-  .replace(/^.*?(Here is|###|Changes Made).*\n?/gi, "")
-  .replace(/`/g, "")
-  .replace(/^\s*\/\/.*$/gm, "")
-  .trim();
+  const logFilePath = path.join(BUILD_DIR, 'build.log');
+  fs.writeFileSync(logFilePath, buildCmd.stdout + buildCmd.stderr);
 
-  fs.writeFileSync(filePath, fixed);
+  if (buildCmd.status !== 0) {
+    console.log('❌ Build failed.');
+    return false;
+  }
 
-  console.log(`🛠️ Fixed and updated: ${filePath}`);
+  console.log('✅ Build succeeded.');
+  return true;
 }
 
-async function tryBuildProject(): Promise<{ success: boolean; log: string }> {
-   try {
-    // Step 1: Recursively find all .cc/.cpp test files
-    const sourceFiles: string[] = [];
+// Parse logs and identify file to fix
+function parseBuildLogsAndFix(): { fileToFix: string; logs: string } | null {
+  const logPath = path.join(BUILD_DIR, 'build.log');
+  if (!fs.existsSync(logPath)) return null;
 
-    const walk = (dir: string) => {
-      fs.readdirSync(dir).forEach((file) => {
-        const fullPath = path.join(dir, file);
-        if (fs.statSync(fullPath).isDirectory()) {
-          walk(fullPath);
-        } else if (file.endsWith(".cc") || file.endsWith(".cpp")) {
-          sourceFiles.push(fullPath);
-        }
-      });
-    };
-    walk(TEST_DIR);
+  const log = fs.readFileSync(logPath, 'utf-8');
+  const match = log.match(/(.*\.cc):\d+:\d+/);
+  if (!match) return null;
 
-    if (sourceFiles.length === 0) {
-      throw new Error("No source files found for build.");
+  const fileToFix = match[1];
+  return { fileToFix, logs: log };
+}
+
+// Send to LLM for fix
+function sendToLLMAndFix(filePath: string, logs: string): void {
+  const content = fs.readFileSync(filePath, 'utf-8');
+
+  // Replace this with your LLM API call (e.g., local model or GitHub Copilot)
+  console.log(`🤖 Sending logs to LLM...`);
+  console.log(`🔧 Applying fix to: ${filePath}`);
+
+  const fixedContent = content; // Replace with LLM response
+  fs.writeFileSync(filePath, fixedContent, 'utf-8');
+}
+
+// Main script
+async function main() {
+  writeCMakeLists();
+
+  let success = false;
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+    console.log(`🚀 Attempt ${attempt}...`);
+    const result = runBuild();
+    if (result) {
+      success = true;
+      break;
     }
 
-    const command = [
-      "g++",
-      "-std=c++17",
-      ...sourceFiles.map((f) => `"${f}"`),
-      "-lgtest",
-      "-lgtest_main",
-      "-pthread",
-      "-o test_executable",
-    ].join(" ");
+    const fixData = parseBuildLogsAndFix();
+    if (!fixData) {
+      console.log('❌ No actionable errors found.');
+      break;
+    }
 
-    console.log("Running build command:");
-    console.log(command);
+    sendToLLMAndFix(fixData.fileToFix, fixData.logs);
+  }
 
-    const output = execSync(command, { encoding: "utf-8" });
-    console.log("Build succeeded.");
-    return { success: true, log: output };
-  } catch (err: any) {
-    console.error("Build failed.");
-    return {
-      success: false,
-      log: err.stderr?.toString() ?? err.toString(),
-    };
+  if (!success) {
+    console.log('❌ All attempts failed. Please check manually.');
   }
 }
 
-async function buildAndFixLoop() {
-  let attempt = 0;
-  while (true) {
-    attempt++;
-    console.log(`\nBuild attempt ${attempt}...`);
-
-    const { success, log } = await tryBuildProject();
-    if (success) break;
-
-    const testFiles: string[] = [];
-
-    const walk = (dir: string) => {
-      fs.readdirSync(dir).forEach((file) => {
-        const fullPath = path.join(dir, file);
-        if (fs.statSync(fullPath).isDirectory()) {
-          walk(fullPath);
-        } else if (fullPath.endsWith(".cc") || fullPath.endsWith(".cpp")) {
-          testFiles.push(fullPath);
-        }
-      });
-    };
-    walk(TEST_DIR);
-
-    if (testFiles.length === 0) {
-      console.error("No test files found.");
-      process.exit(1);
-    }
-
-    for (const testFile of testFiles) {
-      try {
-        await fixTestFile(testFile, log);
-      } catch (err) {
-        console.error(`Failed to fix ${testFile}:`, err);
-      }
-    }
-  }
-
-  console.log("✅ Build fixed successfully.");
-}
-
-if (require.main === module) {
-  if (!token || !fs.existsSync(YAML_FIX_PATH)) {
-    console.error("Missing GITHUB_TOKEN or YAML instruction file.");
-    process.exit(1);
-  }
-
-  buildAndFixLoop();
-}
+main().catch((err) => console.error(err));

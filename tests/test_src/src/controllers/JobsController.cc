@@ -1,3 +1,0 @@
-// LLM-fixed test content
-#include <gtest/gtest.h>
-// ...

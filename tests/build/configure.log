@@ -1,0 +1,48 @@
+-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22631.
+-- Configuring incomplete, errors occurred!
+CMake Deprecation Warning at C:/Users/KIIT/Projects/cpp-tests/src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Error at C:/Users/KIIT/Projects/cpp-tests/src/CMakeLists.txt:26 (add_subdirectory):
+  The source directory
+
+    C:/Users/KIIT/Projects/cpp-tests/src/third_party/drogon
+
+  does not contain a CMakeLists.txt file.
+
+
+CMake Error at C:/Users/KIIT/Projects/cpp-tests/src/CMakeLists.txt:30 (add_subdirectory):
+  The source directory
+
+    C:/Users/KIIT/Projects/cpp-tests/src/third_party/jwt-cpp
+
+  does not contain a CMakeLists.txt file.
+
+
+CMake Error at C:/Users/KIIT/Projects/cpp-tests/src/CMakeLists.txt:34 (add_subdirectory):
+  The source directory
+
+    C:/Users/KIIT/Projects/cpp-tests/src/third_party/libbcrypt
+
+  does not contain a CMakeLists.txt file.
+
+
+CMake Error at C:/Users/KIIT/Projects/cpp-tests/src/CMakeLists.txt:38 (find_package):
+  Could not find a package configuration file provided by "Drogon" with any
+  of the following names:
+
+    DrogonConfig.cmake
+    drogon-config.cmake
+
+  Add the installation prefix of "Drogon" to CMAKE_PREFIX_PATH or set
+  "Drogon_DIR" to a directory containing one of the above files.  If "Drogon"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
