@@ -1,145 +1,125 @@
-import fs from 'fs';
-import path from 'path';
-import { execSync, spawnSync } from 'child_process';
+import fs from "fs";
+import path from "path";
+import { execSync } from "child_process";
+import { sendToLLMAndFix } from "./llmHelper"; // Your LLM integration
 
-// Constants
-const TEST_DIR = path.resolve('tests');
-const TEST_SRC_DIR = path.resolve(TEST_DIR, 'test_src');
-const SRC_DIR = path.resolve('src');
-const BUILD_DIR = path.resolve(TEST_DIR, 'build');
-const EXECUTABLE_NAME = 'test_executable';
-const MAX_ATTEMPTS = 3;
+const SRC_DIR = path.resolve("src");
+const TEST_SRC_DIR = path.resolve("tests", "test_src", "src");
+const TEST_DIR = path.resolve("tests");
+const BUILD_DIR = path.resolve(TEST_DIR, "build");
+const CMAKE_FILE = path.join(TEST_DIR, "CMakeLists.txt");
+const BUILD_LOG = path.join(BUILD_DIR, "build.log");
 
-// Convert Windows paths to POSIX (important for CMake)
 function posixify(p: string): string {
-  return p.replace(/\\/g, '/');
+  return p.replace(/\\/g, "/");
 }
 
-// Write CMakeLists.txt in /tests
-function writeCMakeLists() {
+function generateCMakeLists() {
   const srcPath = posixify(SRC_DIR);
-  const srcBuildPath = posixify(path.join(BUILD_DIR, 'src_build'));
-  
-  console.log("🔧 Writing add_subdirectory with paths:");
-  console.log("  srcPath:", srcPath);
-  console.log("  srcBuildPath:", srcBuildPath);
-  const content = `
-cmake_minimum_required(VERSION 3.10)
-project(${EXECUTABLE_NAME})
+  const testPath = posixify(TEST_SRC_DIR);
+  const buildPath = posixify(BUILD_DIR);
+
+  const cmake = `
+cmake_minimum_required(VERSION 3.14)
+project(cpp_test_runner)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${buildPath}")
 
 enable_testing()
 
-# Add src folder (dev code, readonly)
-add_subdirectory(${srcPath} ${srcBuildPath})
+include_directories("${srcPath}")
 
+file(GLOB_RECURSE SRC_FILES "${srcPath}/*.cc")
+file(GLOB_RECURSE TEST_SOURCES "${testPath}/*.cc")
 
-# GoogleTest
 include(FetchContent)
 FetchContent_Declare(
   googletest
   URL https://github.com/google/googletest/archive/refs/heads/main.zip
 )
-set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
-find_package(GTest REQUIRED)
-include_directories(\${GTEST_INCLUDE_DIRS})
-
-file(GLOB_RECURSE TEST_SOURCES "${posixify(TEST_SRC_DIR)}/*.cc")
-add_executable(${EXECUTABLE_NAME} \${TEST_SOURCES})
-target_link_libraries(${EXECUTABLE_NAME} GTest::gtest_main)
-
-include(GoogleTest)
-gtest_discover_tests(${EXECUTABLE_NAME})
+add_executable(tests \${SRC_FILES} \${TEST_SOURCES})
+target_link_libraries(tests gtest_main)
+add_test(NAME AllTests COMMAND tests)
 `;
-  fs.writeFileSync(path.join(TEST_DIR, 'CMakeLists.txt'), content);
-  console.log('📄 CMakeLists.txt written to /tests');
+
+  fs.writeFileSync(CMAKE_FILE, cmake);
+  console.log(`📄 CMakeLists.txt written to ${CMAKE_FILE}`);
 }
 
-// Run CMake & Build
-function runBuild(): boolean {
-  console.log('🚀 Attempting build...');
-  fs.mkdirSync(BUILD_DIR, { recursive: true });
+function configureAndBuild(): boolean {
+  if (!fs.existsSync(BUILD_DIR)) fs.mkdirSync(BUILD_DIR, { recursive: true });
 
-  const cmakeCmd = spawnSync('cmake', ['..'], {
-    cwd: BUILD_DIR,
-    encoding: 'utf-8',
-    shell: true,
-  });
+  try {
+    console.log("🛠️  Configuring with CMake...");
+    execSync(`cmake ..`, { cwd: BUILD_DIR, stdio: "inherit" });
 
-  if (cmakeCmd.error) {
-    console.error('❌ CMake configuration failed:', cmakeCmd.error.message);
+    console.log("🔨 Building project...");
+    execSync(`cmake --build .`, { cwd: BUILD_DIR, stdio: "inherit" });
+
+    return true;
+  } catch (err) {
+    console.error("❌ Build failed.");
     return false;
   }
+}
 
-  const buildCmd = spawnSync('cmake', ['--build', '.'], {
-    cwd: BUILD_DIR,
-    encoding: 'utf-8',
-    shell: true,
-  });
+function getFirstFailingTestFile(): string | null {
+  const allFiles: string[] = [];
 
-  const logFilePath = path.join(BUILD_DIR, 'build.log');
-  fs.writeFileSync(logFilePath, buildCmd.stdout + buildCmd.stderr);
-
-  if (buildCmd.status !== 0) {
-    console.log('❌ Build failed.');
-    return false;
+  function walk(dir: string) {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    for (const entry of entries) {
+      const fullPath = path.join(dir, entry.name);
+      if (entry.isDirectory()) {
+        walk(fullPath);
+      } else if (entry.name.endsWith(".cc")) {
+        allFiles.push(fullPath);
+      }
+    }
   }
 
-  console.log('✅ Build succeeded.');
-  return true;
+  walk(TEST_SRC_DIR);
+  return allFiles.length ? allFiles[0] : null;
 }
 
-// Parse logs and identify file to fix
-function parseBuildLogsAndFix(): { fileToFix: string; logs: string } | null {
-  const logPath = path.join(BUILD_DIR, 'build.log');
-  if (!fs.existsSync(logPath)) return null;
-
-  const log = fs.readFileSync(logPath, 'utf-8');
-  const match = log.match(/(.*\.cc):\d+:\d+/);
-  if (!match) return null;
-
-  const fileToFix = match[1];
-  return { fileToFix, logs: log };
-}
-
-// Send to LLM for fix
-function sendToLLMAndFix(filePath: string, logs: string): void {
-  const content = fs.readFileSync(filePath, 'utf-8');
-
-  // Replace this with your LLM API call (e.g., local model or GitHub Copilot)
-  console.log(`🤖 Sending logs to LLM...`);
-  console.log(`🔧 Applying fix to: ${filePath}`);
-
-  const fixedContent = content; // Replace with LLM response
-  fs.writeFileSync(filePath, fixedContent, 'utf-8');
-}
-
-// Main script
 async function main() {
-  writeCMakeLists();
+  generateCMakeLists();
 
-  let success = false;
-  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
-    console.log(`🚀 Attempt ${attempt}...`);
-    const result = runBuild();
-    if (result) {
-      success = true;
-      break;
+  let attempts = 0;
+  const maxAttempts = 3;
+
+  while (attempts < maxAttempts) {
+    console.log(`🚀 Attempt ${attempts + 1}...`);
+    const success = configureAndBuild();
+
+    if (success) {
+      console.log("✅ Build succeeded.");
+      return;
     }
 
-    const fixData = parseBuildLogsAndFix();
-    if (!fixData) {
-      console.log('❌ No actionable errors found.');
-      break;
+    const failingFile = getFirstFailingTestFile();
+    if (!failingFile || !fs.existsSync(failingFile)) {
+      console.error("❌ No failing test file found.");
+      return;
     }
 
-    sendToLLMAndFix(fixData.fileToFix, fixData.logs);
+    const logs = fs.existsSync(BUILD_LOG)
+      ? fs.readFileSync(BUILD_LOG, "utf-8")
+      : "Build logs not found or empty.";
+
+    console.log("🤖 Sending logs to LLM...");
+    const updatedContent = await sendToLLMAndFix(failingFile, logs);
+
+    fs.writeFileSync(failingFile, updatedContent);
+    console.log(`🔧 Fix applied to: ${failingFile}`);
+
+    attempts++;
   }
 
-  if (!success) {
-    console.log('❌ All attempts failed. Please check manually.');
-  }
+  console.log("❌ All attempts failed. Please check manually.");
 }
 
-main().catch((err) => console.error(err));
+main();

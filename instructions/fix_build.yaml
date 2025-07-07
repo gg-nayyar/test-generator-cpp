@@ -1,9 +1,10 @@
-style: gtest
+style: make
 purpose: Fix broken C++ test files based on compiler build errors.
 guidelines:
   - Add missing includes, headers, or namespaces.
   - Resolve undeclared identifiers and type errors.
   - Add mock classes if needed.
+  - GENERATE A MAKE FILE.
   - Do not remove test logic unless it's invalid.
   - Do not change production code.
   - Format properly.

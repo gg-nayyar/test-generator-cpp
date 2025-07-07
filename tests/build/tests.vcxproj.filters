@@ -1,0 +1,799 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\controllers\AuthController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\controllers\DepartmentsController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\controllers\JobsController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\controllers\PersonsController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\filters\LoginFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\models\Department.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\models\Job.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\models\Person.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\models\PersonInfo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\models\User.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\controllers\AuthController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\controllers\DepartmentsController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\controllers\JobsController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\controllers\PersonsController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\filters\LoginFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\models\Department.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\models\Job.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\models\Person.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\models\PersonInfo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\models\User.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\plugins\Jwt.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\plugins\JwtPlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\test\test_controllers.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\test\test_main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\cmake\tests\check_has_std_filesystem_path.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\cmake\tests\normal_uuid_lib_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\cmake\tests\ossp_uuid_lib_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\cmake\tests\test_libpq_batch_mode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\cmd.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_controller.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_plugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_project.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_view.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\help.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\press.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\version.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\benchmark\BenchmarkCtrl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\benchmark\JsonCtrl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\benchmark\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\client_example\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\file_upload\file_upload.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\helloworld\HelloController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\helloworld\HelloViewController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\helloworld\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\jsonstore\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\login_session\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\redis\controllers\Client.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\redis\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\redis_cache\controllers\SlowCtrl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\redis_cache\filters\TimeFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\redis_cache\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\redis_cache\test\test_main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\simple_reverse_proxy\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\simple_reverse_proxy\plugins\SimpleReverseProxy.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\websocket_client\WebSocketClient.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\websocket_server\WebSocketServer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\AOPAdvice.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\AccessLogger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\CacheFile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\ConfigLoader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\Cookie.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\DbClientManagerSkipped.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\DrClassMap.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\DrTemplateBase.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\FiltersFunction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpAppFrameworkImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpBinder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpClientImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpControllersRouter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpFileImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpFileUploadRequest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpRequestImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpRequestParser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpResponseImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpResponseParser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpServer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpSimpleControllersRouter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpUtils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpViewData.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\IntranetIpFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\ListenerManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\LocalHostFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\MultiPart.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\NotFound.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\PluginsManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\RangeParser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\RedisClientManagerSkipped.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\RedisClientSkipped.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\RedisResultSkipped.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\SecureSSLRedirector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\SessionManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\SharedLibManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\StaticFileRouter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\TaskTimeoutFlag.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\Utilities.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\WebSocketClientImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\WebSocketConnectionImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\WebsocketControllersRouter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\ssl_funcs\Md5.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\ssl_funcs\Sha1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\client\HttpPipeliningTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\client\MultipleWsTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\client\WebSocketTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\client\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\BeginAdviceTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\CustomCtrl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\CustomHeaderFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\DigestAuthFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\DoNothingPlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\ForwardCtrl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\JsonTestController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\ListParaCtl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\MethodTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\PipeliningTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\RangeTestController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\TestController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\TestPlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\TestViewCtl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\TimeFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\WebSocketTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\api_Attachment.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\api_v1_ApiTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\api_v1_CoroTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\Base64Test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\BrotliTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\CacheMapTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\ClassNameTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\ControllerCreationTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\CookieTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\CoroutineTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\DrObjectTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\FileTypeTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\GzipTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\HttpDateTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\HttpFileTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\HttpFullDateTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\HttpHeaderTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\HttpViewDataTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\MD5Test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\MainLoopTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\MsgBufferTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\OStringStreamTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\PubSubServiceUnittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\Sha1Test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\StringOpsTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\UrlCodecTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisClientImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisClientLockFree.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisClientManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisConnection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisResult.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisTransactionImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\tests\redis_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\ArrayParser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\Criteria.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\DbClient.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\DbClientImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\DbClientLockFree.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\DbClientManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\DbConnection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\Exception.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\Field.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\RestfulController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\Result.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\Row.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\SqlBinder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\TransactionImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\mysql_impl\MysqlConnection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\mysql_impl\MysqlResultImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\mysql_impl\test\test1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\postgresql_impl\PgBatchConnection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\postgresql_impl\PgConnection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\postgresql_impl\PostgreSQLResultImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\postgresql_impl\test\test1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\postgresql_impl\test\test2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\sqlite3_impl\Sqlite3Connection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\sqlite3_impl\Sqlite3ResultImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\sqlite3_impl\test\Groups.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\sqlite3_impl\test\test1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\tests\db_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\tests\mysql\Users.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\tests\postgresql\Users.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\tests\sqlite3\Users.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\Channel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\EventLoop.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\EventLoopThread.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\EventLoopThreadPool.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\InetAddress.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\TcpClient.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\TcpServer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\inner\Acceptor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\inner\AresResolver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\inner\Connector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\inner\NormalResolver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\inner\Poller.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\inner\Socket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\inner\TcpConnectionImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\inner\Timer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\inner\TimerQueue.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\inner\poller\EpollPoller.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\inner\poller\KQueue.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\net\inner\poller\PollPoller.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\AsyncFileLoggerTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\AsyncFileLoggerTest1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\ConcurrentTaskQueueTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\DelayedSSLClientTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\DelayedSSLServerTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\DnsTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\KickoffTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\LoggerMacroTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\LoggerTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\PathConversionTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\RunInLoopTest1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\RunInLoopTest2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\RunOnQuitTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\SSLClientTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\SSLServerTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\SendfileTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\SerialTaskQueueTest1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\SerialTaskQueueTest2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\TcpClientTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\TcpServerTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\TimerTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\TimerTest1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\tests\TimingWheelTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\unittests\DateUnittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\unittests\InetAddressUnittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\unittests\MsgBufferUnittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\unittests\splitStringUnittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\unittests\stringEncodingUnittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\utils\AsyncFileLogger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\utils\ConcurrentTaskQueue.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\utils\Date.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\utils\LogStream.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\utils\Logger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\utils\MsgBuffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\utils\SerialTaskQueue.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\utils\TimingWheel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\utils\Utilities.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\trantor\trantor\utils\WindowsSupport.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\utils\utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\plugins\Jwt.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\plugins\JwtPlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\test\test_controllers.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\test\test_main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\utils\utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\tests\test_src\src\controllers\AuthController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\tests\test_src\src\controllers\DepartmentsController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\tests\test_src\src\controllers\JobsController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\tests\test_src\src\controllers\PersonsController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\tests\test_src\src\filters\LoginFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\tests\test_src\src\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\tests\test_src\src\models\Department.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\tests\test_src\src\models\Job.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\KIIT\Projects\cpp-tests\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7504D093-AE0B-3845-81E9-40912143E938}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

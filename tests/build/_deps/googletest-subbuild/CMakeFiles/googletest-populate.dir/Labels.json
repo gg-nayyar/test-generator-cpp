@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/KIIT/Projects/cpp-tests/tests/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Users/KIIT/Projects/cpp-tests/tests/build/_deps/googletest-subbuild/CMakeFiles/221aedc8f4a21694f7963037b70b657f/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Users/KIIT/Projects/cpp-tests/tests/build/_deps/googletest-subbuild/CMakeFiles/566c64a792a282f2bf9d832ad12f122a/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/KIIT/Projects/cpp-tests/tests/build/_deps/googletest-subbuild/CMakeFiles/5964df3d210c436255fb9efe2283f5fe/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/KIIT/Projects/cpp-tests/tests/build/_deps/googletest-subbuild/CMakeFiles/5964df3d210c436255fb9efe2283f5fe/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/KIIT/Projects/cpp-tests/tests/build/_deps/googletest-subbuild/CMakeFiles/5964df3d210c436255fb9efe2283f5fe/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/KIIT/Projects/cpp-tests/tests/build/_deps/googletest-subbuild/CMakeFiles/5964df3d210c436255fb9efe2283f5fe/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/KIIT/Projects/cpp-tests/tests/build/_deps/googletest-subbuild/CMakeFiles/5964df3d210c436255fb9efe2283f5fe/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/KIIT/Projects/cpp-tests/tests/build/_deps/googletest-subbuild/CMakeFiles/5964df3d210c436255fb9efe2283f5fe/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/KIIT/Projects/cpp-tests/tests/build/_deps/googletest-subbuild/CMakeFiles/5964df3d210c436255fb9efe2283f5fe/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/KIIT/Projects/cpp-tests/tests/build/_deps/googletest-subbuild/CMakeFiles/5964df3d210c436255fb9efe2283f5fe/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

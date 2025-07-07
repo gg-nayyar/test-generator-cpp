@@ -14,6 +14,7 @@ guidelines:
   - Include appropriate headers and mocks.
   - Use Arrange-Act-Assert (AAA) pattern in each test case.
   - Cover all functions and edge cases.
+  - Do NOT wrap code in markdown or ```cpp blocks.
 output:
   format: cpp
   include_headers: true
