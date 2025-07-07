@@ -13,6 +13,36 @@ You are an AI C++ developer. Here's the C++ test file with build errors.
 Your job is to fix all errors from the build log and return the corrected version only.
 
 --- FILE START ---
+
+You are an AI C++ developer. Here's the C++ test file with build errors.
+Your job is to fix all errors from the build log and return the corrected version only.
+
+--- FILE START ---
+
+You are an AI C++ developer. Here's the C++ test file with build errors.
+Your job is to fix all errors from the build log and return the corrected version only.
+
+--- FILE START ---
+
+You are an AI C++ developer. Here's the C++ test file with build errors.
+Your job is to fix all errors from the build log and return the corrected version only.
+
+--- FILE START ---
+
+You are an AI C++ developer. Here's the C++ test file with build errors.
+Your job is to fix all errors from the build log and return the corrected version only.
+
+--- FILE START ---
+
+You are an AI C++ developer. Here's the C++ test file with build errors.
+Your job is to fix all errors from the build log and return the corrected version only.
+
+--- FILE START ---
+
+You are an AI C++ developer. Here's the C++ test file with build errors.
+Your job is to fix all errors from the build log and return the corrected version only.
+
+--- FILE START ---
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 #include "AuthController.h"
@@ -232,6 +262,54 @@ TEST_F(AuthControllerTest, LoginUser_Success) {
     ASSERT_TRUE(responseJson->isMember("username"));
     ASSERT_TRUE(responseJson->isMember("token"));
 }
+--- FILE END ---
+
+--- BUILD LOG ---
+Build logs not found or empty.
+--- LOG END ---
+
+Fix all errors and return the corrected C++ code only.
+  
+--- FILE END ---
+
+--- BUILD LOG ---
+Build logs not found or empty.
+--- LOG END ---
+
+Fix all errors and return the corrected C++ code only.
+  
+--- FILE END ---
+
+--- BUILD LOG ---
+Build logs not found or empty.
+--- LOG END ---
+
+Fix all errors and return the corrected C++ code only.
+  
+--- FILE END ---
+
+--- BUILD LOG ---
+Build logs not found or empty.
+--- LOG END ---
+
+Fix all errors and return the corrected C++ code only.
+  
+--- FILE END ---
+
+--- BUILD LOG ---
+Build logs not found or empty.
+--- LOG END ---
+
+Fix all errors and return the corrected C++ code only.
+  
+--- FILE END ---
+
+--- BUILD LOG ---
+Build logs not found or empty.
+--- LOG END ---
+
+Fix all errors and return the corrected C++ code only.
+  
 --- FILE END ---
 
 --- BUILD LOG ---

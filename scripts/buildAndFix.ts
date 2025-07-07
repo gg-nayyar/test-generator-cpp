@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { execSync } from "child_process";
-import { sendToLLMAndFix } from "./llmHelper"; // Your LLM integration
+import { sendToLLMAndFix } from "./llmHelper";
 
 const SRC_DIR = path.resolve("src");
 const TEST_SRC_DIR = path.resolve("tests", "test_src", "src");
@@ -43,26 +43,58 @@ FetchContent_MakeAvailable(googletest)
 add_executable(tests \${SRC_FILES} \${TEST_SOURCES})
 target_link_libraries(tests gtest_main)
 add_test(NAME AllTests COMMAND tests)
+
+if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
+    message("Enabling coverage flags")
+    set(CMAKE_CXX_FLAGS "\${CMAKE_CXX_FLAGS} --coverage -O0 -fprofile-arcs -ftest-coverage")
+    set(CMAKE_EXE_LINKER_FLAGS "\${CMAKE_EXE_LINKER_FLAGS} --coverage")
+endif()
 `;
 
   fs.writeFileSync(CMAKE_FILE, cmake);
-  console.log(`📄 CMakeLists.txt written to ${CMAKE_FILE}`);
+  console.log(`CMakeLists.txt written to ${CMAKE_FILE}`);
 }
 
 function configureAndBuild(): boolean {
   if (!fs.existsSync(BUILD_DIR)) fs.mkdirSync(BUILD_DIR, { recursive: true });
 
   try {
-    console.log("🛠️  Configuring with CMake...");
+    console.log("Configuring with CMake...");
     execSync(`cmake ..`, { cwd: BUILD_DIR, stdio: "inherit" });
 
-    console.log("🔨 Building project...");
+    console.log("Building project...");
     execSync(`cmake --build .`, { cwd: BUILD_DIR, stdio: "inherit" });
 
     return true;
   } catch (err) {
-    console.error("❌ Build failed.");
+    console.error("Build failed.");
     return false;
+  }
+}
+
+function collectCoverage() {
+  console.log("Collecting coverage data...");
+
+  try {
+    const testExecutable = path.join(BUILD_DIR, "tests.exe");
+    if (fs.existsSync(testExecutable)) {
+      execSync(testExecutable, { stdio: "inherit" });
+    } else {
+      console.warn("Test executable not found:", testExecutable);
+      return;
+    }
+
+    execSync(`gcov *.gcda`, { cwd: BUILD_DIR, stdio: "inherit", shell: "bash" });
+
+    const reports = fs.readdirSync(BUILD_DIR).filter(f => f.endsWith(".gcov"));
+    if (reports.length === 0) {
+      console.warn("No .gcov coverage files generated.");
+    } else {
+      console.log("Generated coverage reports:");
+      reports.forEach(file => console.log(` - ${file}`));
+    }
+  } catch (err) {
+    console.error("Coverage collection failed:", err);
   }
 }
 
@@ -92,17 +124,18 @@ async function main() {
   const maxAttempts = 3;
 
   while (attempts < maxAttempts) {
-    console.log(`🚀 Attempt ${attempts + 1}...`);
+    console.log(`Attempt ${attempts + 1}...`);
     const success = configureAndBuild();
 
     if (success) {
-      console.log("✅ Build succeeded.");
+      console.log("Build succeeded.");
+      collectCoverage();
       return;
     }
 
     const failingFile = getFirstFailingTestFile();
     if (!failingFile || !fs.existsSync(failingFile)) {
-      console.error("❌ No failing test file found.");
+      console.error("No failing test file found.");
       return;
     }
 
@@ -110,16 +143,16 @@ async function main() {
       ? fs.readFileSync(BUILD_LOG, "utf-8")
       : "Build logs not found or empty.";
 
-    console.log("🤖 Sending logs to LLM...");
+    console.log("Sending logs to LLM...");
     const updatedContent = await sendToLLMAndFix(failingFile, logs);
 
     fs.writeFileSync(failingFile, updatedContent);
-    console.log(`🔧 Fix applied to: ${failingFile}`);
+    console.log(`Fix applied to: ${failingFile}`);
 
     attempts++;
   }
 
-  console.log("❌ All attempts failed. Please check manually.");
+  console.log("All attempts failed. Please check manually.");
 }
 
 main();

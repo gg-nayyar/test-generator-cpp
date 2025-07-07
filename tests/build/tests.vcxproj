@@ -418,35 +418,75 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\test\test_main.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/test/test_main.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\cmake\tests\check_has_std_filesystem_path.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\cmake\tests\normal_uuid_lib_test.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\cmake\tests\ossp_uuid_lib_test.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\cmake\tests\test_libpq_batch_mode.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\cmd.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_controller.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_filter.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_model.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_plugin.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_project.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_view.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\help.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\cmake\tests\check_has_std_filesystem_path.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/cmake/tests/check_has_std_filesystem_path.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\cmake\tests\normal_uuid_lib_test.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/cmake/tests/normal_uuid_lib_test.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\cmake\tests\ossp_uuid_lib_test.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/cmake/tests/ossp_uuid_lib_test.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\cmake\tests\test_libpq_batch_mode.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/cmake/tests/test_libpq_batch_mode.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\cmd.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/drogon_ctl/cmd.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/drogon_ctl/create.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_controller.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/drogon_ctl/create_controller.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_filter.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/drogon_ctl/create_filter.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_model.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/drogon_ctl/create_model.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_plugin.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/drogon_ctl/create_plugin.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_project.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/drogon_ctl/create_project.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\create_view.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/drogon_ctl/create_view.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\help.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/drogon_ctl/help.cc.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\main.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/drogon_ctl/main.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\press.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\version.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\benchmark\BenchmarkCtrl.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\benchmark\JsonCtrl.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\press.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/drogon_ctl/press.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\drogon_ctl\version.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/drogon_ctl/version.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\benchmark\BenchmarkCtrl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/examples/benchmark/BenchmarkCtrl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\benchmark\JsonCtrl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/examples/benchmark/JsonCtrl.cc.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\benchmark\main.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/examples/benchmark/main.cc.obj</ObjectFileName>
     </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\client_example\main.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/examples/client_example/main.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\file_upload\file_upload.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\helloworld\HelloController.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\helloworld\HelloViewController.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\file_upload\file_upload.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/examples/file_upload/file_upload.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\helloworld\HelloController.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/examples/helloworld/HelloController.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\helloworld\HelloViewController.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/examples/helloworld/HelloViewController.cc.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\helloworld\main.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/examples/helloworld/main.cc.obj</ObjectFileName>
     </ClCompile>
@@ -456,11 +496,15 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\login_session\main.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/examples/login_session/main.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\redis\controllers\Client.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\redis\controllers\Client.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/examples/redis/controllers/Client.cc.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\redis\main.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/examples/redis/main.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\redis_cache\controllers\SlowCtrl.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\redis_cache\controllers\SlowCtrl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/examples/redis_cache/controllers/SlowCtrl.cc.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\redis_cache\filters\TimeFilter.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/examples/redis_cache/filters/TimeFilter.cc.obj</ObjectFileName>
     </ClCompile>
@@ -473,155 +517,383 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\simple_reverse_proxy\main.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/examples/simple_reverse_proxy/main.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\simple_reverse_proxy\plugins\SimpleReverseProxy.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\websocket_client\WebSocketClient.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\websocket_server\WebSocketServer.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\AOPAdvice.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\AccessLogger.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\CacheFile.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\ConfigLoader.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\Cookie.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\DbClientManagerSkipped.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\DrClassMap.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\DrTemplateBase.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\simple_reverse_proxy\plugins\SimpleReverseProxy.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/examples/simple_reverse_proxy/plugins/SimpleReverseProxy.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\websocket_client\WebSocketClient.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/examples/websocket_client/WebSocketClient.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\examples\websocket_server\WebSocketServer.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/examples/websocket_server/WebSocketServer.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\AOPAdvice.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/AOPAdvice.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\AccessLogger.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/AccessLogger.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\CacheFile.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/CacheFile.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\ConfigLoader.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/ConfigLoader.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\Cookie.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/Cookie.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\DbClientManagerSkipped.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/DbClientManagerSkipped.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\DrClassMap.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/DrClassMap.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\DrTemplateBase.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/DrTemplateBase.cc.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\FiltersFunction.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpAppFrameworkImpl.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpBinder.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpClientImpl.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpControllersRouter.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpFileImpl.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpFileUploadRequest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpRequestImpl.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpRequestParser.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpResponseImpl.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpResponseParser.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpServer.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpAppFrameworkImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/HttpAppFrameworkImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpBinder.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/HttpBinder.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpClientImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/HttpClientImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpControllersRouter.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/HttpControllersRouter.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpFileImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/HttpFileImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpFileUploadRequest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/HttpFileUploadRequest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpRequestImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/HttpRequestImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpRequestParser.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/HttpRequestParser.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpResponseImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/HttpResponseImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpResponseParser.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/HttpResponseParser.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpServer.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/HttpServer.cc.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpSimpleControllersRouter.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpUtils.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpViewData.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\IntranetIpFilter.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\ListenerManager.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\LocalHostFilter.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\MultiPart.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\NotFound.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\PluginsManager.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\RangeParser.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\RedisClientManagerSkipped.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\RedisClientSkipped.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\RedisResultSkipped.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\SecureSSLRedirector.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\SessionManager.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\SharedLibManager.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\StaticFileRouter.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\TaskTimeoutFlag.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpUtils.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/HttpUtils.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\HttpViewData.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/HttpViewData.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\IntranetIpFilter.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/IntranetIpFilter.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\ListenerManager.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/ListenerManager.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\LocalHostFilter.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/LocalHostFilter.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\MultiPart.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/MultiPart.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\NotFound.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/NotFound.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\PluginsManager.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/PluginsManager.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\RangeParser.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/RangeParser.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\RedisClientManagerSkipped.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/RedisClientManagerSkipped.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\RedisClientSkipped.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/RedisClientSkipped.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\RedisResultSkipped.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/RedisResultSkipped.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\SecureSSLRedirector.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/SecureSSLRedirector.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\SessionManager.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/SessionManager.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\SharedLibManager.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/SharedLibManager.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\StaticFileRouter.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/StaticFileRouter.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\TaskTimeoutFlag.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/TaskTimeoutFlag.cc.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\Utilities.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/Utilities.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\WebSocketClientImpl.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\WebSocketConnectionImpl.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\WebSocketClientImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/WebSocketClientImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\WebSocketConnectionImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/src/WebSocketConnectionImpl.cc.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\WebsocketControllersRouter.cc" />
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\ssl_funcs\Md5.cc" />
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\src\ssl_funcs\Sha1.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\client\HttpPipeliningTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\client\MultipleWsTest.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\client\HttpPipeliningTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/client/HttpPipeliningTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\client\MultipleWsTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/client/MultipleWsTest.cc.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\client\WebSocketTest.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/client/WebSocketTest.cc.obj</ObjectFileName>
     </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\client\main.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/client/main.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\BeginAdviceTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\CustomCtrl.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\CustomHeaderFilter.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\DigestAuthFilter.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\DoNothingPlugin.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\ForwardCtrl.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\JsonTestController.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\ListParaCtl.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\MethodTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\PipeliningTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\RangeTestController.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\TestController.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\TestPlugin.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\TestViewCtl.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\BeginAdviceTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/BeginAdviceTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\CustomCtrl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/CustomCtrl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\CustomHeaderFilter.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/CustomHeaderFilter.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\DigestAuthFilter.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/DigestAuthFilter.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\DoNothingPlugin.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/DoNothingPlugin.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\ForwardCtrl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/ForwardCtrl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\JsonTestController.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/JsonTestController.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\ListParaCtl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/ListParaCtl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\MethodTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/MethodTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\PipeliningTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/PipeliningTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\RangeTestController.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/RangeTestController.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\TestController.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/TestController.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\TestPlugin.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/TestPlugin.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\TestViewCtl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/TestViewCtl.cc.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\TimeFilter.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/TimeFilter.cc.obj</ObjectFileName>
     </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\WebSocketTest.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/WebSocketTest.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\api_Attachment.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\api_v1_ApiTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\api_v1_CoroTest.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\api_Attachment.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/api_Attachment.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\api_v1_ApiTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/api_v1_ApiTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\api_v1_CoroTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/api_v1_CoroTest.cc.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\integration_test\server\main.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/integration_test/server/main.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\Base64Test.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\BrotliTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\CacheMapTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\ClassNameTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\ControllerCreationTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\CookieTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\CoroutineTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\DrObjectTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\FileTypeTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\GzipTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\HttpDateTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\HttpFileTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\HttpFullDateTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\HttpHeaderTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\HttpViewDataTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\MD5Test.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\MainLoopTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\MsgBufferTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\OStringStreamTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\PubSubServiceUnittest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\Sha1Test.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\StringOpsTest.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\UrlCodecTest.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\Base64Test.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/Base64Test.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\BrotliTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/BrotliTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\CacheMapTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/CacheMapTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\ClassNameTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/ClassNameTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\ControllerCreationTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/ControllerCreationTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\CookieTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/CookieTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\CoroutineTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/CoroutineTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\DrObjectTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/DrObjectTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\FileTypeTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/FileTypeTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\GzipTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/GzipTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\HttpDateTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/HttpDateTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\HttpFileTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/HttpFileTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\HttpFullDateTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/HttpFullDateTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\HttpHeaderTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/HttpHeaderTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\HttpViewDataTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/HttpViewDataTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\MD5Test.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/MD5Test.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\MainLoopTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/MainLoopTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\MsgBufferTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/MsgBufferTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\OStringStreamTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/OStringStreamTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\PubSubServiceUnittest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/PubSubServiceUnittest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\Sha1Test.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/Sha1Test.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\StringOpsTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/StringOpsTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\UrlCodecTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/UrlCodecTest.cc.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\lib\tests\unittests\main.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/lib/tests/unittests/main.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisClientImpl.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisClientLockFree.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisClientManager.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisConnection.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisResult.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisTransactionImpl.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\tests\redis_test.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\ArrayParser.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\Criteria.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\DbClient.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\DbClientImpl.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\DbClientLockFree.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\DbClientManager.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\DbConnection.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\Exception.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\Field.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\RestfulController.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\Result.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\Row.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\SqlBinder.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\TransactionImpl.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\mysql_impl\MysqlConnection.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\mysql_impl\MysqlResultImpl.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisClientImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/nosql_lib/redis/src/RedisClientImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisClientLockFree.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/nosql_lib/redis/src/RedisClientLockFree.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisClientManager.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/nosql_lib/redis/src/RedisClientManager.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisConnection.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/nosql_lib/redis/src/RedisConnection.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisResult.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/nosql_lib/redis/src/RedisResult.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\src\RedisTransactionImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/nosql_lib/redis/src/RedisTransactionImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\nosql_lib\redis\tests\redis_test.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/nosql_lib/redis/tests/redis_test.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\ArrayParser.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/ArrayParser.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\Criteria.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/Criteria.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\DbClient.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/DbClient.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\DbClientImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/DbClientImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\DbClientLockFree.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/DbClientLockFree.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\DbClientManager.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/DbClientManager.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\DbConnection.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/DbConnection.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\Exception.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/Exception.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\Field.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/Field.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\RestfulController.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/RestfulController.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\Result.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/Result.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\Row.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/Row.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\SqlBinder.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/SqlBinder.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\TransactionImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/TransactionImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\mysql_impl\MysqlConnection.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/mysql_impl/MysqlConnection.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\mysql_impl\MysqlResultImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/mysql_impl/MysqlResultImpl.cc.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\mysql_impl\test\test1.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/mysql_impl/test/test1.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\postgresql_impl\PgBatchConnection.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\postgresql_impl\PgConnection.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\postgresql_impl\PostgreSQLResultImpl.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\postgresql_impl\PgBatchConnection.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/postgresql_impl/PgBatchConnection.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\postgresql_impl\PgConnection.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/postgresql_impl/PgConnection.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\postgresql_impl\PostgreSQLResultImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/postgresql_impl/PostgreSQLResultImpl.cc.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\postgresql_impl\test\test1.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/postgresql_impl/test/test1.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\postgresql_impl\test\test2.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\sqlite3_impl\Sqlite3Connection.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\sqlite3_impl\Sqlite3ResultImpl.cc" />
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\sqlite3_impl\test\Groups.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\postgresql_impl\test\test2.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/postgresql_impl/test/test2.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\sqlite3_impl\Sqlite3Connection.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/sqlite3_impl/Sqlite3Connection.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\sqlite3_impl\Sqlite3ResultImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/sqlite3_impl/Sqlite3ResultImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\sqlite3_impl\test\Groups.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/sqlite3_impl/test/Groups.cc.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\src\sqlite3_impl\test\test1.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/src/sqlite3_impl/test/test1.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\tests\db_test.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\tests\db_test.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/tests/db_test.cc.obj</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\orgChartApi\third_party\drogon\orm_lib\tests\mysql\Users.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/orgChartApi/third_party/drogon/orm_lib/tests/mysql/Users.cc.obj</ObjectFileName>
     </ClCompile>
@@ -704,6 +976,590 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\test\test_main.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/test/test_main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\cmake\tests\check_has_std_filesystem_path.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/cmake/tests/check_has_std_filesystem_path.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\cmake\tests\normal_uuid_lib_test.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/cmake/tests/normal_uuid_lib_test.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\cmake\tests\ossp_uuid_lib_test.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/cmake/tests/ossp_uuid_lib_test.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\cmake\tests\test_libpq_batch_mode.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/cmake/tests/test_libpq_batch_mode.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\drogon_ctl\cmd.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/drogon_ctl/cmd.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\drogon_ctl\create.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/drogon_ctl/create.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\drogon_ctl\create_controller.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/drogon_ctl/create_controller.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\drogon_ctl\create_filter.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/drogon_ctl/create_filter.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\drogon_ctl\create_model.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/drogon_ctl/create_model.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\drogon_ctl\create_plugin.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/drogon_ctl/create_plugin.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\drogon_ctl\create_project.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/drogon_ctl/create_project.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\drogon_ctl\create_view.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/drogon_ctl/create_view.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\drogon_ctl\help.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/drogon_ctl/help.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\drogon_ctl\main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/drogon_ctl/main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\drogon_ctl\press.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/drogon_ctl/press.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\drogon_ctl\version.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/drogon_ctl/version.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\async_stream\RequestStreamExampleCtrl.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\async_stream\main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/async_stream/main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\benchmark\BenchmarkCtrl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/benchmark/BenchmarkCtrl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\benchmark\JsonCtrl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/benchmark/JsonCtrl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\benchmark\main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/benchmark/main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\client_example\main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/client_example/main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\cors\main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/cors/main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\file_upload\file_upload.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/file_upload/file_upload.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\helloworld\HelloController.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/helloworld/HelloController.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\helloworld\HelloViewController.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/helloworld/HelloViewController.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\helloworld\main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/helloworld/main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\jsonstore\main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/jsonstore/main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\login_session\main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/login_session/main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\prometheus_example\controllers\PromTestCtrl.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\prometheus_example\filters\PromStat.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\prometheus_example\main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/prometheus_example/main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\prometheus_example\test\test_main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/prometheus_example/test/test_main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\redis\controllers\Client.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/redis/controllers/Client.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\redis\controllers\WsClient.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\redis\main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/redis/main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\redis_cache\controllers\SlowCtrl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/redis_cache/controllers/SlowCtrl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\redis_cache\filters\TimeFilter.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/redis_cache/filters/TimeFilter.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\redis_cache\main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/redis_cache/main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\redis_cache\test\test_main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/redis_cache/test/test_main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\redis_chat\controllers\Chat.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\redis_chat\main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/redis_chat/main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\simple_reverse_proxy\main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/simple_reverse_proxy/main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\simple_reverse_proxy\plugins\SimpleReverseProxy.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/simple_reverse_proxy/plugins/SimpleReverseProxy.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\websocket_client\WebSocketClient.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/websocket_client/WebSocketClient.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\examples\websocket_server\WebSocketServer.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/examples/websocket_server/WebSocketServer.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\AOPAdvice.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/AOPAdvice.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\AccessLogger.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/AccessLogger.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\CacheFile.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/CacheFile.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\ConfigAdapterManager.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\ConfigLoader.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/ConfigLoader.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\Cookie.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/Cookie.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\DbClientManagerSkipped.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/DbClientManagerSkipped.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\DrClassMap.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/DrClassMap.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\DrTemplateBase.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/DrTemplateBase.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\FixedWindowRateLimiter.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\GlobalFilters.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\Histogram.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\Hodor.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\HttpAppFrameworkImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/HttpAppFrameworkImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\HttpBinder.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/HttpBinder.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\HttpClientImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/HttpClientImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\HttpConnectionLimit.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\HttpControllerBinder.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\HttpControllersRouter.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/HttpControllersRouter.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\HttpFileImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/HttpFileImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\HttpFileUploadRequest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/HttpFileUploadRequest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\HttpRequestImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/HttpRequestImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\HttpRequestParser.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/HttpRequestParser.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\HttpResponseImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/HttpResponseImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\HttpResponseParser.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/HttpResponseParser.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\HttpServer.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/HttpServer.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\HttpUtils.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/HttpUtils.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\HttpViewData.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/HttpViewData.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\IntranetIpFilter.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/IntranetIpFilter.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\JsonConfigAdapter.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\ListenerManager.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/ListenerManager.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\LocalHostFilter.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/LocalHostFilter.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\MiddlewaresFunction.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\MultiPart.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/MultiPart.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\MultipartStreamParser.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\NotFound.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/NotFound.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\PluginsManager.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/PluginsManager.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\PromExporter.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\RangeParser.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/RangeParser.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\RateLimiter.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\RealIpResolver.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\Redirector.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\RedisClientManagerSkipped.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/RedisClientManagerSkipped.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\RedisClientSkipped.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/RedisClientSkipped.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\RedisResultSkipped.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/RedisResultSkipped.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\RequestStream.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\SecureSSLRedirector.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/SecureSSLRedirector.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\SessionManager.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/SessionManager.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\SharedLibManager.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/SharedLibManager.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\SlashRemover.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\SlidingWindowRateLimiter.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\StaticFileRouter.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/StaticFileRouter.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\TaskTimeoutFlag.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/TaskTimeoutFlag.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\TokenBucketRateLimiter.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\Utilities.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/Utilities.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\WebSocketClientImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/WebSocketClientImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\WebSocketConnectionImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/src/WebSocketConnectionImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\YamlConfigAdapter.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\src\drogon_test.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\CookieSameSite.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\RealIpResolverTest.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\client\HttpPipeliningTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/client/HttpPipeliningTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\client\MultipleWsTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/client/MultipleWsTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\client\RequestStreamTest.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\client\WebSocketTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/client/WebSocketTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\client\main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/client/main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\BeginAdviceTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/BeginAdviceTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\CustomCtrl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/CustomCtrl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\CustomHeaderFilter.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/CustomHeaderFilter.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\DigestAuthFilter.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/DigestAuthFilter.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\DoNothingPlugin.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/DoNothingPlugin.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\ForwardCtrl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/ForwardCtrl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\JsonTestController.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/JsonTestController.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\ListParaCtl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/ListParaCtl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\MethodTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/MethodTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\MiddlewareTest.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\PipeliningTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/PipeliningTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\RangeTestController.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/RangeTestController.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\RequestStreamTestCtrl.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\TestController.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/TestController.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\TestPlugin.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/TestPlugin.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\TestViewCtl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/TestViewCtl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\TimeFilter.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/TimeFilter.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\WebSocketTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/WebSocketTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\api_Attachment.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/api_Attachment.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\api_v1_ApiTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/api_v1_ApiTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\api_v1_CoroTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/api_v1_CoroTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\integration_test\server\main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/integration_test/server/main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\main_CookieSameSite.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\Base64Test.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/Base64Test.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\BrotliTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/BrotliTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\CacheMapTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/CacheMapTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\ClassNameTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/ClassNameTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\ControllerCreationTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/ControllerCreationTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\CookieTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/CookieTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\CoroutineTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/CoroutineTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\DrObjectTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/DrObjectTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\FileTypeTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/FileTypeTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\GzipTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/GzipTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\HttpDateTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/HttpDateTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\HttpFileTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/HttpFileTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\HttpFullDateTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/HttpFullDateTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\HttpHeaderTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/HttpHeaderTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\HttpViewDataTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/HttpViewDataTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\MD5Test.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/MD5Test.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\MainLoopTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/MainLoopTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\MsgBufferTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/MsgBufferTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\MultiPartParserTest.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\OStringStreamTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/OStringStreamTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\PubSubServiceUnittest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/PubSubServiceUnittest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\Sha1Test.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/Sha1Test.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\SlashRemoverTest.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\StringOpsTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/StringOpsTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\UrlCodecTest.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/UrlCodecTest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\UtilitiesTest.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\UuidUnittest.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\WebsocketResponseTest.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\lib\tests\unittests\main.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/lib/tests/unittests/main.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\nosql_lib\redis\src\RedisClientImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/nosql_lib/redis/src/RedisClientImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\nosql_lib\redis\src\RedisClientLockFree.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/nosql_lib/redis/src/RedisClientLockFree.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\nosql_lib\redis\src\RedisClientManager.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/nosql_lib/redis/src/RedisClientManager.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\nosql_lib\redis\src\RedisConnection.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/nosql_lib/redis/src/RedisConnection.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\nosql_lib\redis\src\RedisResult.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/nosql_lib/redis/src/RedisResult.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\nosql_lib\redis\src\RedisSubscriberImpl.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\nosql_lib\redis\src\RedisTransactionImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/nosql_lib/redis/src/RedisTransactionImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\nosql_lib\redis\src\SubscribeContext.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\nosql_lib\redis\tests\redis_subscriber_test.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\nosql_lib\redis\tests\redis_test.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/nosql_lib/redis/tests/redis_test.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\ArrayParser.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/ArrayParser.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\Criteria.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/Criteria.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\DbClient.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/DbClient.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\DbClientImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/DbClientImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\DbClientLockFree.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/DbClientLockFree.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\DbClientManager.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/DbClientManager.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\DbConnection.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/DbConnection.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\DbListener.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\Exception.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/Exception.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\Field.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/Field.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\RestfulController.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/RestfulController.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\Result.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/Result.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\Row.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/Row.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\SqlBinder.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/SqlBinder.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\TransactionImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/TransactionImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\mysql_impl\MysqlConnection.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/mysql_impl/MysqlConnection.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\mysql_impl\MysqlResultImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/mysql_impl/MysqlResultImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\mysql_impl\test\test1.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/mysql_impl/test/test1.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\postgresql_impl\PgBatchConnection.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/postgresql_impl/PgBatchConnection.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\postgresql_impl\PgConnection.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/postgresql_impl/PgConnection.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\postgresql_impl\PgListener.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\postgresql_impl\PostgreSQLResultImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/postgresql_impl/PostgreSQLResultImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\postgresql_impl\test\test1.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/postgresql_impl/test/test1.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\postgresql_impl\test\test2.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/postgresql_impl/test/test2.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\sqlite3_impl\Sqlite3Connection.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/sqlite3_impl/Sqlite3Connection.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\sqlite3_impl\Sqlite3ResultImpl.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/sqlite3_impl/Sqlite3ResultImpl.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\sqlite3_impl\test\Groups.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/sqlite3_impl/test/Groups.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\src\sqlite3_impl\test\test1.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/src/sqlite3_impl/test/test1.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\conn_options_test.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\db_api_test.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\db_listener_test.cc" />
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\db_test.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/db_test.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\mysql\Blog.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/mysql/Blog.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\mysql\BlogTag.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/mysql/BlogTag.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\mysql\Category.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/mysql/Category.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\mysql\Tag.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/mysql/Tag.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\mysql\Users.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/mysql/Users.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\mysql\Wallets.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/mysql/Wallets.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\postgresql\Blog.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/postgresql/Blog.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\postgresql\BlogTag.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/postgresql/BlogTag.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\postgresql\Category.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/postgresql/Category.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\postgresql\Tag.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/postgresql/Tag.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\postgresql\Users.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/postgresql/Users.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\postgresql\Wallets.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/postgresql/Wallets.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\sqlite3\Blog.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/sqlite3/Blog.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\sqlite3\BlogTag.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/sqlite3/BlogTag.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\sqlite3\Category.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/sqlite3/Category.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\sqlite3\Tag.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/sqlite3/Tag.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\sqlite3\Users.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/sqlite3/Users.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\third_party\drogon\orm_lib\tests\sqlite3\Wallets.cc">
+      <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/third_party/drogon/orm_lib/tests/sqlite3/Wallets.cc.obj</ObjectFileName>
     </ClCompile>
     <ClCompile Include="C:\Users\KIIT\Projects\cpp-tests\src\utils\utils.cc">
       <ObjectFileName>$(IntDir)/C_/Users/KIIT/Projects/cpp-tests/src/utils/utils.cc.obj</ObjectFileName>
